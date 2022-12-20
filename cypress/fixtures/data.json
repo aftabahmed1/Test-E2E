@@ -1,0 +1,37 @@
+{
+  "body": {
+    "requestValidData": {
+      "firstname": "Jim",
+      "lastname": "Brown",
+      "totalprice": 111,
+      "depositpaid": true,
+      "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+      },
+      "additionalneeds": "Breakfast"
+    },
+    "requestInvalidData": {
+      "firstname": "Jim",
+      "lastname": "Brown",
+      "totalprice": 111,
+      "depositpaid": true,
+      "bookingdates": {
+        "checkin": "Invalid dates",
+        "checkout": "Invalid dates"
+      },
+      "additionalneeds": "Breakfast"
+    },
+    "requestInvalidNameData": {
+      "firstname": 222,
+      "lastname": "Brown",
+      "totalprice": 111,
+      "depositpaid": true,
+      "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+      },
+      "additionalneeds": "Breakfast"
+    }
+  }
+}

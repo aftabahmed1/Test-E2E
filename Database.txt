@@ -1,0 +1,11 @@
+MYSQL queries
+1- 
+Select * from Contacts where email is not NULL and phone is not NULL;
+
+2- 
+Select count(*) as TotalUsersByGroupIds from users group by groupId;
+
+3- 
+(SELECT Orders.OrderID, Orders.OrderDate, Customers.CustomerName
+FROM Customers join Orders
+on Customers.CustomerID=Orders.CustomerID);
